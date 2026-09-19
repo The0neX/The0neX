@@ -32,10 +32,10 @@
   <!-- Camada de Imagens Animadas -->
   <g clip-path="url(#card-clip)">
     <!-- COLE OS LINKS GERADOS PELO GITHUB NAS ISSUES AQUI -->
-    <image href="LINK_FOTO_1" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="dog1" />
-    <image href="LINK_FOTO_2" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="dog2" />
-    <image href="LINK_FOTO_3" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="dog3" />
-    <image href="LINK_FOTO_4" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="dog4" />
+    <image href="https://github.com/user-attachments/assets/124e6c6c-6369-4f81-8e44-97a7be1d796a" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="dog1" />
+    <image href="https://github.com/user-attachments/assets/196e37e8-2ff5-4421-8de9-fd5c6d923b8c" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="dog2" />
+    <image href="https://github.com/user-attachments/assets/cb14f8c4-86ff-4226-9a77-b71ffff5330e" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="dog3" />
+    <image href="https://github.com/user-attachments/assets/d4e3fa12-4d87-4c01-99b7-852e7387d2174" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="dog4" />
 
     <!-- Película escura para deixar a imagem de fundo discreta e não atrapalhar o texto -->
     <rect width="100%" height="100%" fill="#0D1117" opacity="0.85" />
