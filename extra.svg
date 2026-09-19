@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="100%" height="100%">
+  <style>
+    .text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      fill: #C9D1D9;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      fill: #7EE787;
+      letter-spacing: 1px;
+    }
+
+    .section {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #FFFFFF;
+      letter-spacing: 0.6px;
+    }
+
+    .item {
+      font-size: 14px;
+      fill: #C9D1D9;
+    }
+
+    .accent {
+      fill: #7EE787;
+    }
+
+    .muted {
+      fill: #8B949E;
+    }
+
+    .box {
+      fill: #0D1117;
+      stroke: #2EA043;
+      stroke-width: 1.5;
+    }
+
+    .divider {
+      stroke: #21262D;
+      stroke-width: 1;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 1; }
+    }
+
+    .title-animate {
+      animation: fadeIn 0.55s ease-out forwards;
+    }
+
+    .col1 {
+      animation: fadeIn 0.55s ease-out 0.12s forwards;
+    }
+
+    .col2 {
+      animation: fadeIn 0.55s ease-out 0.22s forwards;
+    }
+
+    .col3 {
+      animation: fadeIn 0.55s ease-out 0.32s forwards;
+    }
+
+    .status-dot {
+      animation: pulse 1.6s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Card -->
+  <rect width="997" height="247" x="1.5" y="1.5" rx="12" class="box" />
+
+  <!-- Título -->
+  <g class="title-animate" style="opacity: 0;">
+    <text x="40" y="48" class="text title">▶ ALÉM DO CÓDIGO</text>
+    <circle cx="956" cy="42" r="5" class="accent status-dot" />
+    <text x="968" y="47" class="text muted" font-size="12" text-anchor="end">explorando</text>
+  </g>
+
+  <!-- Divisores -->
+  <line x1="333" y1="72" x2="333" y2="218" class="divider" />
+  <line x1="666" y1="72" x2="666" y2="218" class="divider" />
+
+  <!-- Coluna 1 -->
+  <g class="col1" style="opacity: 0;">
+    <text x="40" y="95" class="text section">◆ HOBBIES &amp; ROTINA</text>
+
+    <text x="40" y="126" class="text item">
+      <tspan class="accent">›</tspan> Academia
+    </text>
+    <text x="40" y="151" class="text item">
+      <tspan class="accent">›</tspan> Games
+    </text>
+    <text x="40" y="176" class="text item">
+      <tspan class="accent">›</tspan> Matemática
+    </text>
+    <text x="40" y="201" class="text item">
+      <tspan class="accent">›</tspan> Hardware &amp; tecnologia
+    </text>
+  </g>
+
+  <!-- Coluna 2 -->
+  <g class="col2" style="opacity: 0;">
+    <text x="366" y="95" class="text section">◆ APRENDIZADO</text>
+
+    <text x="366" y="126" class="text item">
+      <tspan class="accent">›</tspan> Sistemas operacionais
+    </text>
+    <text x="366" y="151" class="text item">
+      <tspan class="accent">›</tspan> Redes &amp; segurança
+    </text>
+    <text x="366" y="176" class="text item">
+      <tspan class="accent">›</tspan> Arquitetura de software
+    </text>
+    <text x="366" y="201" class="text item">
+      <tspan class="accent">›</tspan> Programação de baixo nível
+    </text>
+  </g>
+
+  <!-- Coluna 3 -->
+  <g class="col3" style="opacity: 0;">
+    <text x="699" y="95" class="text section">◆ PRÓXIMOS PASSOS</text>
+
+    <text x="699" y="126" class="text item">
+      <tspan class="accent">›</tspan> Projetos próprios
+    </text>
+    <text x="699" y="151" class="text item">
+      <tspan class="accent">›</tspan> Sistemas embarcados
+    </text>
+    <text x="699" y="176" class="text item">
+      <tspan class="accent">›</tspan> IoT &amp; automação
+    </text>
+    <text x="699" y="201" class="text item">
+      <tspan class="accent">›</tspan> Evolução em Back-end
+    </text>
+  </g>
+</svg>
