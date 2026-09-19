@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" width="100%" height="100%">
+  <style>
+    .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; fill: #C9D1D9; }
+    .title { font-size: 18px; font-weight: bold; fill: #7EE787; letter-spacing: 1px; }
+    .subtitle { font-size: 14px; fill: #FFFFFF; font-weight: 600; }
+    .box { fill: #0D1117; stroke: #2EA043; stroke-width: 1.5; rx: 12px; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .animate { animation: fadeIn 0.5s ease-out forwards; }
+  </style>
+  <rect width="317" height="297" x="1.5" y="1.5" class="box animate" />
+  <g class="animate" style="animation-delay: 0.1s; opacity: 0;">
+    <text x="25" y="45" class="text title">▶ SOBRE MIM</text>
+    <text x="25" y="90" class="text">Desenvolvedor focado em</text>
+    <text x="25" y="115" class="text">resolver problemas reais,</text>
+    <text x="25" y="140" class="text">equilibrando sistemas web</text>
+    <text x="25" y="165" class="text">robustos e arquiteturas</text>
+    <text x="25" y="190" class="text">de baixo nível.</text>
+    <rect x="25" y="230" width="125" height="30" fill="#21262D" rx="15" />
+    <text x="40" y="250" class="text subtitle">🛡️ SecOps</text>
+    <rect x="160" y="230" width="125" height="30" fill="#21262D" rx="15" />
+    <text x="175" y="250" class="text subtitle">⚡ Hard/C</text>
+  </g>
+</svg>
