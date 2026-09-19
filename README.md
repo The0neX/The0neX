@@ -1,15 +1,15 @@
-<!-- Header -->
+<!-- BANNER ANIMADO -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&reversal=false&text=Arthur&fontSize=60&fontColor=FFFFFF&fontAlign=50&fontAlignY=35&color=0D1117&desc=Dev%20Back-end%20&%20Baixo%20Nível&descSize=20&descAlign=50&descAlignY=60" alt="Header" width="100%" />
+  <img src="image_3.png" alt="Arthur - Low Level & Back-end Developer" width="100%" />
 </div>
 
-<!-- SEÇÃO: SOBRE -->
+<!-- SEÇÃO: SOBRE (Expansível) -->
 <details open>
   <summary>👨‍💻 <b>Sobre Mim (Open)</b></summary>
 
-> Desenvolvedor focado em resolver problemas reais, equilibrando a criação de sistemas web robustos e o aprofundamento em arquiteturas de baixo nível.
+> Desenvolvedor curioso que transita entre sistemas web complexos e o coração do hardware, com foco em segurança.
   
-Construir projetos funcionais é o básico; o meu interesse principal está em garantir que eles sejam eficientes, escaláveis e **seguros**. Gosto de transitar entre o desenvolvimento de APIs complexas e a manipulação direta de hardware, memória e chamadas nativas.
+Construir projetos funcionais é o básico; meu interesse principal está em garantir que eles sejam eficientes, escaláveis e **seguros**. Gosto de transitar entre o desenvolvimento de APIs complexas e a manipulação direta de hardware, memória e chamadas nativas.
 
 * 🛡️ **Foco:** Cibersegurança, Arquitetura de Software e Sistemas Embarcados.
 * ⚡ **Stack Principal:** TypeScript, Node.js, PostgreSQL, C e Assembly.
@@ -18,8 +18,8 @@ Construir projetos funcionais é o básico; o meu interesse principal está em g
 
 <hr>
 
-<!-- SEÇÃO: STACK -->
-<details open>
+<!-- SEÇÃO: STACK (Expansível) -->
+<details>
   <summary>🛠️ <b>Tecnologias & Ferramentas (Open)</b></summary>
   <br>
   <div align="center">
@@ -47,7 +47,7 @@ Construir projetos funcionais é o básico; o meu interesse principal está em g
 
 <hr>
 
-<!-- SEÇÃO: ESTATÍSTICAS -->
+<!-- SEÇÃO: ESTATÍSTICAS (Expansível) -->
 <details>
   <summary>📊 <b>Estatísticas (Open)</b></summary>
   <br>
@@ -66,5 +66,5 @@ Construir projetos funcionais é o básico; o meu interesse principal está em g
 
 <!-- CONTADOR RETRO -->
 <div align="center">
-  <img src="https://profile-counter.glitch.me/The0neX/count.svg" alt="Contador de Visitantes" />
+  <img src="https://profile-counter.glitch.me/The0neX/count.svg" alt="Contador de Visitantes Retro" />
 </div>
