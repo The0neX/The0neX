@@ -1,49 +1,70 @@
-<!-- Banner: Efeito de onda mantido, mas com cor escura minimalista (GitHub Dark) -->
+<!-- Header -->
 <div align="center">
-  <img style="width: 100%;" src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&reversal=false&text=E%20aí,%20sou%20o%20Arthur!&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&color=0D1117&desc=Dev%20Back-end%20&%20Baixo%20Nível&descSize=20&descAlign=50&descAlignY=50" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&reversal=false&text=Arthur&fontSize=60&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&color=0D1117&desc=Dev%20Back-end%20&%20Baixo%20Nível&descSize=20&descAlign=50&descAlignY=50" alt="Header" width="100%" />
 </div>
 
-<!-- SEÇÃO: SOBRE (Expansível) -->
-<details>
+<!-- SEÇÃO: SOBRE -->
+<details open>
   <summary>👨‍💻 <b>Sobre Mim (Open)</b></summary>
-  <blockquote>
-    <p>Desenvolvedor curioso e focado em resolver problemas reais. Gosto daquele equilíbrio entre criar sistemas web robustos usando TypeScript, Node.js e PostgreSQL, e depois descer para o baixo nível escrevendo em C e mexendo com APIs nativas.</p>
-    <p>Também tenho um interesse forte em cibersegurança. Construir projetos é legal, mas garantir que eles não sejam hackeados é melhor ainda.</p>
-  </blockquote>
+
+> Desenvolvedor focado em resolver problemas reais, equilibrando a criação de sistemas web robustos e o aprofundamento em arquiteturas de baixo nível.
+  
+Construir projetos funcionais é o básico; meu interesse principal está em garantir que eles sejam eficientes, escaláveis e **seguros**. Gosto de transitar entre o desenvolvimento de APIs complexas e a manipulação direta de hardware, memória e chamadas nativas.
+
+* 🛡️ **Foco:** Cibersegurança, Arquitetura de Software e Sistemas Embarcados.
+* ⚡ **Stack Principal:** TypeScript, Node.js, PostgreSQL, C e Assembly.
+
 </details>
 
 <hr>
 
-<!-- SEÇÃO: STACK (Expansível) -->
+<!-- SEÇÃO: STACK -->
 <details open>
-  <summary>🛠️ <b>Tecnologias (Open)</b></summary>
+  <summary>🛠️ <b>Tecnologias & Ferramentas (Open)</b></summary>
   <br>
   <div align="center">
-    <!-- Ícones atualizados para incluir as linguagens de web e baixo nível -->
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=c,ts,js,nodejs,postgres,html,css,git&theme=dark" alt="Skills" />
+    <table>
+      <tr>
+        <td align="center"><b>Web & Back-end</b></td>
+        <td align="center"><b>Baixo Nível & Hardware</b></td>
+        <td align="center"><b>Ferramentas</b></td>
+      </tr>
+      <tr>
+        <td align="center">
+          <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,nodejs,postgres,html,css&theme=dark" alt="Web Stack" /></a>
+        </td>
+        <td align="center">
+          <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=c,cpp,asm,arduino&theme=dark" alt="Low Level Stack" /></a>
+        </td>
+        <td align="center">
+          <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,linux,sqlite&theme=dark" alt="Tools" /></a>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <br>
+</details>
+
+<hr>
+
+<!-- SEÇÃO: ESTATÍSTICAS -->
+<details>
+  <summary>📊 <b>Estatísticas (Open)</b></summary>
+  <br>
+  <div align="center">
+    <a href="https://github.com/The0neX">
+      <img src="https://github-readme-stats.vercel.app/api?username=The0neX&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&rank_icon=github" height="150" alt="GitHub Stats" />
+    </a>
+    <a href="https://github.com/The0neX">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=The0neX&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117" height="150" alt="Top Languages" />
     </a>
   </div>
   <br>
 </details>
 
-<hr>
+<br>
 
-<!-- SEÇÃO: ESTATÍSTICAS (Expansível) -->
-<!-- Voltei para o readme-stats clássico, mas forcei o tema escuro sem bordas para ficar limpo -->
-<details>
-  <summary>📊 <b>Estatísticas (Open)</b></summary>
-  <br>
-  <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=The0neX&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117" height="150" alt="Estatísticas do GitHub" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=The0neX&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117" height="150" alt="Linguagens mais usadas" />
-  </div>
-  <br>
-</details>
-
-<br><br>
-
-<!-- CONTADOR DE VISITAS -->
+<!-- CONTADOR -->
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=The0neX.The0neX" alt="visitors" />
 </div>
