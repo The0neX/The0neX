@@ -1,0 +1,48 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: 'Courier New', Courier, monospace; font-size: 45px; fill: #7EE787; font-weight: bold; }
+    .subtitle { font-family: 'Courier New', Courier, monospace; font-size: 22px; fill: #C9D1D9; }
+    .android { fill: #A4C639; }
+    .eye { fill: #0D1117; }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+  </style>
+  
+  <!-- Fundo escuro (GitHub Dark) -->
+  <rect width="100%" height="100%" fill="#0D1117" rx="10"/>
+  
+  <!-- Android e animação de entrada da esquerda -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="-100 0" to="0 0" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1" keyTimes="0;1"/>
+    
+    <!-- Rosto Metade Android -->
+    <path d="M 0 40 A 60 60 0 0 1 0 160 Z" class="android" />
+    
+    <!-- Antenas -->
+    <line x1="30" y1="55" x2="60" y2="35" stroke="#A4C639" stroke-width="6" stroke-linecap="round"/>
+    <line x1="30" y1="145" x2="60" y2="165" stroke="#A4C639" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Olhos -->
+    <circle cx="35" cy="80" r="6" class="eye"/>
+    <circle cx="35" cy="120" r="6" class="eye"/>
+  </g>
+  
+  <!-- Máscara de recorte que revela o texto (Efeito Digitação) -->
+  <clipPath id="typing">
+    <rect x="0" y="-50" width="0" height="150">
+      <animate attributeName="width" from="0" to="600" dur="2s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1" keyTimes="0;1"/>
+    </rect>
+  </clipPath>
+  
+  <!-- Textos -->
+  <g transform="translate(160, 105)" clip-path="url(#typing)">
+    <text x="0" y="0" class="title">Arthur@The0neX<tspan class="cursor">_</tspan></text>
+    <text x="5" y="40" class="subtitle">Dev Back-end &amp; Baixo Nível</text>
+  </g>
+</svg>
