@@ -13,7 +13,7 @@
     
     <!-- Status -->
     <text x="25" y="90" class="text">⚙️ Status do Sistema:</text>
-    <text x="180" y="90" class="text highlight">Online</text>
+    <text x="180" y="90" class="text highlight"> Online</text>
     
     <!-- Foco Atual (Texto longo colocado abaixo do título para não colidir) -->
     <text x="25" y="135" class="text">🚀 Foco Atual:</text>
