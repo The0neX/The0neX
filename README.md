@@ -9,7 +9,7 @@
 
 > Desenvolvedor focado em resolver problemas reais, equilibrando a criação de sistemas web robustos e o aprofundamento em arquiteturas de baixo nível.
   
-Construir projetos funcionais é o básico; meu interesse principal está em garantir que eles sejam eficientes, escaláveis e **seguros**. Gosto de transitar entre o desenvolvimento de APIs complexas e a manipulação direta de hardware, memória e chamadas nativas.
+Construir projetos funcionais é o básico; o meu interesse principal está em garantir que eles sejam eficientes, escaláveis e **seguros**. Gosto de transitar entre o desenvolvimento de APIs complexas e a manipulação direta de hardware, memória e chamadas nativas.
 
 * 🛡️ **Foco:** Cibersegurança, Arquitetura de Software e Sistemas Embarcados.
 * ⚡ **Stack Principal:** TypeScript, Node.js, PostgreSQL, C e Assembly.
@@ -64,7 +64,7 @@ Construir projetos funcionais é o básico; meu interesse principal está em gar
 
 <br>
 
-<!-- CONTADOR -->
+<!-- CONTADOR RETRO -->
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=The0neX.The0neX" alt="visitors" />
+  <img src="https://profile-counter.glitch.me/The0neX/count.svg" alt="Contador de Visitantes" />
 </div>
