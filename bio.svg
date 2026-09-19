@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1000 250"
+     width="100%"
+     height="100%">
+  <style>
+    .text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      fill: #C9D1D9;
+      font-size: 16px;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      fill: #7EE787;
+      letter-spacing: 1px;
+    }
+
+    .box {
+      fill: none;
+      stroke: #2EA043;
+      stroke-width: 1.5;
+      rx: 12;
+    }
+
+    /*
+      Cada imagem ocupa exatamente um ciclo de 24s.
+      Os pontos de entrada/saída se sobrepõem levemente,
+      criando um crossfade entre as fotos.
+    */
+    @keyframes photo1 {
+      0%, 100% { opacity: 0; }
+      3%       { opacity: 0.35; }
+      19%      { opacity: 0.35; }
+      26%      { opacity: 0; }
+    }
+
+    @keyframes photo2 {
+      0%, 100% { opacity: 0; }
+      28%      { opacity: 0; }
+      31%      { opacity: 0.35; }
+      44%      { opacity: 0.35; }
+      51%      { opacity: 0; }
+    }
+
+    @keyframes photo3 {
+      0%, 100% { opacity: 0; }
+      53%      { opacity: 0; }
+      56%      { opacity: 0.35; }
+      69%      { opacity: 0.35; }
+      76%      { opacity: 0; }
+    }
+
+    @keyframes photo4 {
+      0%, 100% { opacity: 0; }
+      78%      { opacity: 0; }
+      81%      { opacity: 0.35; }
+      94%      { opacity: 0.35; }
+      100%     { opacity: 0; }
+    }
+
+    .dog1 { animation: photo1 24s ease-in-out infinite; }
+    .dog2 { animation: photo2 24s ease-in-out infinite; }
+    .dog3 { animation: photo3 24s ease-in-out infinite; }
+    .dog4 { animation: photo4 24s ease-in-out infinite; }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(15px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate {
+      animation: slideUp 0.8s ease-out forwards;
+    }
+  </style>
+
+  <defs>
+    <clipPath id="card-clip">
+      <rect width="997" height="247" x="1.5" y="1.5" rx="12" />
+    </clipPath>
+  </defs>
+
+  <!-- Fundo do card -->
+  <rect
+    width="997"
+    height="247"
+    x="1.5"
+    y="1.5"
+    fill="#0D1117"
+    rx="12"
+  />
+
+  <!-- Fotos animadas -->
+  <g clip-path="url(#card-clip)">
+    <!-- Foto 1 -->
+    <image
+      x="0"
+      y="0"
+      width="1000"
+      height="250"
+      preserveAspectRatio="xMidYMid slice"
+      href="https://github.com/user-attachments/assets/8eed2c78-927c-4adf-bda5-2741d00a7967"
+      xlink:href="https://github.com/user-attachments/assets/8eed2c78-927c-4adf-bda5-2741d00a7967"
+      class="dog1"
+    />
+
+    <!-- Foto 2 -->
+    <image
+      x="0"
+      y="0"
+      width="1000"
+      height="250"
+      preserveAspectRatio="xMidYMid slice"
+      href="https://github.com/user-attachments/assets/80010ced-d44d-4965-8824-fb5b46845adb"
+      xlink:href="https://github.com/user-attachments/assets/80010ced-d44d-4965-8824-fb5b46845adb"
+      class="dog2"
+    />
+
+    <!-- Foto 3 -->
+    <image
+      x="0"
+      y="0"
+      width="1000"
+      height="250"
+      preserveAspectRatio="xMidYMid slice"
+      href="https://github.com/user-attachments/assets/f56793b0-1f16-4620-a2b5-0ffb83688f9b"
+      xlink:href="https://github.com/user-attachments/assets/f56793b0-1f16-4620-a2b5-0ffb83688f9b"
+      class="dog3"
+    />
+
+    <!-- Foto 4 -->
+    <image
+      x="0"
+      y="0"
+      width="1000"
+      height="250"
+      preserveAspectRatio="xMidYMid slice"
+      href="https://github.com/user-attachments/assets/4a7da543-4004-4c0e-a5d5-a096c3c0f1a9"
+      xlink:href="https://github.com/user-attachments/assets/4a7da543-4004-4c0e-a5d5-a096c3c0f1a9"
+      class="dog4"
+    />
+
+    <!-- Película escura para manter o texto legível -->
+    <rect
+      x="0"
+      y="0"
+      width="1000"
+      height="250"
+      fill="#0D1117"
+      opacity="0.78"
+    />
+  </g>
+
+  <!-- Borda -->
+  <rect
+    width="997"
+    height="247"
+    x="1.5"
+    y="1.5"
+    class="box"
+  />
+
+  <!-- Conteúdo -->
+  <g class="animate" style="opacity: 0;">
+    <text x="40" y="55" class="text title">▶ OBJETIVOS &amp; TRAJETÓRIA</text>
+
+    <text x="40" y="100" class="text">
+      Estudante técnico e desenvolvedor, sou fascinado por entender o que acontece por baixo
+    </text>
+
+    <text x="40" y="125" class="text">
+      dos panos. Meu foco atual é criar sistemas robustos, integrando desde lógicas complexas
+    </text>
+
+    <text x="40" y="150" class="text">
+      em C/C++ para microcontroladores até back-ends web escaláveis em Node.js.
+    </text>
+
+    <text x="40" y="185" class="text">
+      Longe dos teclados, a rotina se divide entre os treinos na academia, a matemática e a
+    </text>
+
+    <text x="40" y="210" class="text">
+      companhia das minhas maiores parceiras (as cachorrinhas que estão passando no fundo!).
+    </text>
+  </g>
+</svg>
