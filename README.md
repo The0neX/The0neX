@@ -29,67 +29,9 @@
   <br>
   <img src="./bio.svg" alt="Objetivos e Trajetória" width="100%" />
 
-  <!-- ================================================= -->
-  <!-- NOVA ÁREA -->
-  <!-- ================================================= -->
+<br><br>
 
-  <br><br>
-
-  <h2>🧠 ALÉM DO CÓDIGO</h2>
-
-  <table>
-    <tr>
-      <td width="33%" align="center">
-
-        <h3>👤 PERFIL</h3>
-
-        <p>
-          🎓 Estudante técnico<br>
-          💻 Desenvolvedor em formação<br>
-          ⚙️ Interesse em Low Level<br>
-          🌐 Back-end & sistemas
-        </p>
-
-      </td>
-
-      <td width="33%" align="center">
-
-        <h3>🎯 FOCO ATUAL</h3>
-
-        <p>
-          C / C++<br>
-          Node.js<br>
-          TypeScript<br>
-          Sistemas embarcados<br>
-          Cybersecurity
-        </p>
-
-      </td>
-
-      <td width="33%" align="center">
-
-        <h3>⚡ EXTRAS</h3>
-
-        <p>
-          🎮 Games<br>
-          🔧 Hardware<br>
-          🧠 Engenharia reversa<br>
-          🚀 Projetos pessoais
-        </p>
-
-      </td>
-    </tr>
-  </table>
-
-  <br>
-
-  <h3>📌 MAIS SOBRE MIM</h3>
-
-  <p>
-    Aqui você pode colocar informações que não cabem nos cards principais,
-    como hobbies, objetivos profissionais, curiosidades, projetos em andamento,
-    experiências ou outras coisas que queira compartilhar.
-  </p>
+<img src="./extra.svg" alt="Além do Código" width="100%" />
 
   <br>
 
