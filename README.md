@@ -1,6 +1,6 @@
-<!-- BANNER ANIMADO -->
+<!-- BANNER ANIMADO NATIVO -->
 <div align="center">
-  <img src="image_3.png" alt="Arthur - Low Level & Back-end Developer" width="100%" />
+  <img src="./banner.svg" alt="Arthur - Low Level & Back-end Developer" width="100%" />
 </div>
 
 <!-- SEÇÃO: SOBRE (Expansível) -->
@@ -48,6 +48,7 @@ Construir projetos funcionais é o básico; meu interesse principal está em gar
 <hr>
 
 <!-- SEÇÃO: ESTATÍSTICAS (Expansível) -->
+<!-- Usa os status oficiais abertos do GitHub, as únicas métricas seguras de manter -->
 <details>
   <summary>📊 <b>Estatísticas (Open)</b></summary>
   <br>
@@ -61,10 +62,3 @@ Construir projetos funcionais é o básico; meu interesse principal está em gar
   </div>
   <br>
 </details>
-
-<br>
-
-<!-- CONTADOR RETRO -->
-<div align="center">
-  <img src="https://profile-counter.glitch.me/The0neX/count.svg" alt="Contador de Visitantes Retro" />
-</div>
