@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 360" width="100%" height="100%">
+  <style>
+    /* Estilos de Fonte e Cores */
+    .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #C9D1D9; }
+    .title { font-size: 18px; font-weight: bold; fill: #7EE787; letter-spacing: 1px; }
+    .subtitle { font-size: 14px; fill: #8B949E; }
+    .highlight { fill: #FFFFFF; font-weight: 600; }
+    
+    /* Caixa dos Cards */
+    .box { 
+      fill: #0D1117; 
+      stroke: #2EA043; 
+      stroke-width: 1.5; 
+      rx: 12px; 
+    }
+    
+    /* Efeito de Expansão (Animação) */
+    @keyframes popIn {
+      0% { transform: scale(0.9) translateY(20px); opacity: 0; }
+      100% { transform: scale(1) translateY(0); opacity: 1; }
+    }
+
+    /* Aplicação em cascata para cada painel */
+    .panel-1 { animation: popIn 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards; opacity: 0; transform-origin: center; }
+    .panel-2 { animation: popIn 0.6s cubic-bezier(0.25, 1, 0.5, 1) 0.2s forwards; opacity: 0; transform-origin: center; }
+    .panel-3 { animation: popIn 0.6s cubic-bezier(0.25, 1, 0.5, 1) 0.4s forwards; opacity: 0; transform-origin: center; }
+  </style>
+
+  <!-- Fundo transparente para mesclar perfeitamente com o GitHub -->
+  <rect width="100%" height="100%" fill="transparent"/>
+
+  <!-- PAINEL 1: SOBRE MIM -->
+  <g class="panel-1" transform="translate(20, 30)">
+    <rect width="320" height="300" class="box" />
+    <text x="25" y="45" class="text title">▶ SOBRE MIM</text>
+    
+    <text x="25" y="90" class="text">Desenvolvedor focado em</text>
+    <text x="25" y="115" class="text">resolver problemas reais,</text>
+    <text x="25" y="140" class="text">equilibrando sistemas web</text>
+    <text x="25" y="165" class="text">robustos e arquiteturas</text>
+    <text x="25" y="190" class="text">de baixo nível.</text>
+    
+    <!-- Badges de Foco -->
+    <rect x="25" y="230" width="130" height="30" fill="#21262D" rx="15" />
+    <text x="40" y="250" class="text subtitle highlight">🛡️ SecOps</text>
+    
+    <rect x="165" y="230" width="130" height="30" fill="#21262D" rx="15" />
+    <text x="180" y="250" class="text subtitle highlight">⚡ Hard/C</text>
+  </g>
+
+  <!-- PAINEL 2: TECNOLOGIAS (Ícones em Emoji Nativo para evitar links) -->
+  <g class="panel-2" transform="translate(370, 30)">
+    <rect width="320" height="300" class="box" />
+    <text x="25" y="45" class="text title">▶ TECNOLOGIAS</text>
+    
+    <text x="40" y="105" class="text" font-size="26">🟦</text>
+    <text x="75" y="100" class="text highlight">TypeScript</text>
+    
+    <text x="180" y="105" class="text" font-size="26">🟩</text>
+    <text x="215" y="100" class="text highlight">Node.js</text>
+    
+    <text x="40" y="165" class="text" font-size="26">🐘</text>
+    <text x="75" y="160" class="text highlight">PostgreSQL</text>
+    
+    <text x="180" y="165" class="text" font-size="26">⚙️</text>
+    <text x="215" y="160" class="text highlight">C / C++</text>
+
+    <text x="40" y="225" class="text" font-size="26">👾</text>
+    <text x="75" y="220" class="text highlight">Assembly</text>
+
+    <text x="180" y="225" class="text" font-size="26">🐧</text>
+    <text x="215" y="220" class="text highlight">Linux</text>
+  </g>
+
+  <!-- PAINEL 3: ESTATÍSTICAS E DIRETRIZES -->
+  <g class="panel-3" transform="translate(720, 30)">
+    <rect width="320" height="300" class="box" />
+    <text x="25" y="45" class="text title">▶ ESTATÍSTICAS</text>
+    
+    <text x="25" y="100" class="text">⚙️ Status do Sistema:</text>
+    <text x="295" y="100" class="text highlight" text-anchor="end">Online</text>
+    
+    <text x="25" y="150" class="text">🚀 Foco Atual:</text>
+    <text x="295" y="150" class="text highlight" text-anchor="end">Back-end Nativo</text>
+    
+    <text x="25" y="200" class="text">💻 SO Principal:</text>
+    <text x="295" y="200" class="text highlight" text-anchor="end">Arch Linux</text>
+    
+    <!-- Barra de Progresso Falsa -->
+    <text x="25" y="250" class="text subtitle">Nível de Cafeína</text>
+    <rect x="25" y="265" width="270" height="6" fill="#21262D" rx="3"/>
+    <rect x="25" y="265" width="220" height="6" fill="#7EE787" rx="3">
+      <animate attributeName="width" from="0" to="220" dur="1.5s" fill="freeze" />
+    </rect>
+  </g>
+</svg>
