@@ -2,24 +2,28 @@
   <style>
     .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; fill: #C9D1D9; }
     .title { font-size: 18px; font-weight: bold; fill: #7EE787; letter-spacing: 1px; }
-    .highlight { fill: #FFFFFF; font-weight: 600; text-anchor: end; }
+    .highlight { fill: #FFFFFF; font-weight: 600; }
     .box { fill: #0D1117; stroke: #2EA043; stroke-width: 1.5; rx: 12px; }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     .animate { animation: fadeIn 0.5s ease-out forwards; }
   </style>
-  <rect width="317" height="297" x="1.5" y="1.5" class="box animate" style="animation-delay: 0.2s;" />
-  <g class="animate" style="animation-delay: 0.3s; opacity: 0;">
-    <text x="25" y="45" class="text title">▶ ESTATÍSTICAS</text>
-    <text x="25" y="100" class="text">⚙️ Status do Sistema:</text>
-    <text x="295" y="100" class="text highlight">Online</text>
-    <text x="25" y="150" class="text">🚀 Foco Atual:</text>
-    <text x="295" y="150" class="text highlight">Back-end, sistemas embarcados e IoT</text>
-    <text x="25" y="200" class="text">💻 SO Principal:</text>
-    <text x="295" y="200" class="text highlight">Windows</text>
-    <text x="25" y="250" class="text" font-size="14" fill="#8B949E">Nível de energético</text>
-    <rect x="25" y="265" width="270" height="6" fill="#21262D" rx="3"/>
-    <rect x="25" y="265" width="0" height="6" fill="#7EE787" rx="3">
-      <animate attributeName="width" from="0" to="240" dur="1.5s" begin="0.5s" fill="freeze" />
-    </rect>
+  <rect width="317" height="297" x="1.5" y="1.5" class="box animate" style="animation-delay: 0.1s;" />
+  <g class="animate" style="animation-delay: 0.2s; opacity: 0;">
+    <text x="25" y="45" class="text title">▶ TECNOLOGIAS</text>
+    
+    <text x="30" y="90" class="text" font-size="22">🟦</text>
+    <text x="65" y="85" class="text highlight">TypeScript</text>
+    
+    <text x="30" y="130" class="text" font-size="22">🟩</text>
+    <text x="65" y="125" class="text highlight">Node.js</text>
+    
+    <text x="30" y="170" class="text" font-size="22">🐘</text>
+    <text x="65" y="165" class="text highlight">PostgreSQL</text>
+    
+    <text x="30" y="210" class="text" font-size="22">⚙️</text>
+    <text x="65" y="205" class="text highlight">C / C++ (Arduino)</text>
+    
+    <text x="30" y="250" class="text" font-size="22">👾</text>
+    <text x="65" y="245" class="text highlight">Assembly - x86</text>
   </g>
 </svg>
