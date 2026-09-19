@@ -42,14 +42,8 @@
 </details>
 
 <br><br>
-  <!-- Adicionado &v=1 no final de cada link -->
 
 <!-- CONTADOR DE VISITAS -->
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=The0neX.The0neX&" alt="visitors" />
-</div>
-
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=The0neX.The0neX&" alt="visitors" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=The0neX.The0neX" alt="visitors" />
 </div>
