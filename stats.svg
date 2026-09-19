@@ -17,7 +17,7 @@
     
     <!-- Foco Atual (Texto longo colocado abaixo do título para não colidir) -->
     <text x="25" y="135" class="text">🚀 Foco Atual:</text>
-    <text x="25" y="160" class="text highlight">Back-end, sistemas embarcados e IoT</text><br>
+    <text x="25" y="160" class="text highlight">Back-end, sistemas embarcados e IoT</text>
     
     <!-- SO Principal -->
     <text x="25" y="205" class="text">💻 SO Principal:</text>
