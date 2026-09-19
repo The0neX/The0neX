@@ -4,7 +4,7 @@
 
   <!-- Botões de Contato (Badge Shield Customizado com o Tema Verde) -->
   <br>
-  <a href="mailto:arthur11maduro.com">
+  <a href="mailto:arthur11maduro@gmail.com">
     <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=7EE787&borderColor=2EA043" alt="Email" />
   </a>
   <a href="https://linkedin.com/in/SEU_LINKEDIN_AQUI">
