@@ -1,38 +1,18 @@
-<div align="center">
-  <!-- Banner Principal -->
-  <img src="./banner.svg" alt="Arthur - Low Level & Back-end Developer" width="100%" />
+Hey guys! 
+My name is Arthur and im very excited with you reading this :)
+I am a Brazilian (🇧🇷) developer and for now im doing a techical course of Computer Network at CEFET-MG 😊
+I like create projects and im the creator of F&n. 
 
-  <!-- Botões de Contato -->
-  <br>
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=arthur11maduro@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=7EE787&borderColor=2EA043" alt="Email">
-  </a>
+### 🫠 Skills 
+.C 
+.Js
+.Java
+.Py (beginner)
 
-  <a href="https://linkedin.com/in/SEU_LINKEDIN_AQUI">
-    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=7EE787&borderColor=2EA043" alt="LinkedIn" />
-  </a>
+### 🥅 Contact me :
+- Linkedin: https://www.linkedin.com/in/arthur-maduro-a0ba2123b/
 
-  <a href="https://discord.com/users/SEU_ID_DO_DISCORD_AQUI">
-    <img src="https://img.shields.io/badge/Discord-0D1117?style=for-the-badge&logo=discord&logoColor=7EE787&borderColor=2EA043" alt="Discord" />
-  </a>
+- Email: arthur11maduro@gmail.com 
 
-  <br><br>
-
-  <!-- Dashboards Lado a Lado -->
-  <div align="center">
-    <img src="./sobre.svg" width="32%" alt="Sobre Mim" />
-    <img src="./tech.svg" width="32%" alt="Tecnologias" />
-    <img src="./stats.svg" width="32%" alt="Estatísticas" />
-  </div>
-
-  <!-- Bio & Trajetória -->
-  <br>
-  <img src="./bio.svg" alt="Objetivos e Trajetória" width="100%" />
-
-<br><br>
-
-<img src="./extra.svg" alt="Além do Código" width="100%" />
-
-  <br>
-
-</div>
+I love **C** 💙
+> **Love to mom and dad + to Flor&Nina** ❤️
