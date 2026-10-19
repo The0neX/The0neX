@@ -1,13 +1,13 @@
-Hey guys! 
+Hey guys! 🤝
 My name is Arthur and im very excited with you reading this :) <br>
-I am a Brazilian (🇧🇷) developer and for now im doing a techical course of Computer Network at CEFET-MG 😊
-I like create projects and im the creator of F&n. 
+I am a Brazilian (🇧🇷) developer and for now im doing a techical course of Computer Network at CEFET-MG 😊 <br>
+I like create projects and im the creator of F&n. <br>
 
 ### 🫠 Skills 
-.C 
-.Js
-.Java
-.Py (beginner)
+- .C 
+- .Js
+- .Java
+- .Py (beginner)
 
 ### 🥅 Contact me :
 - Linkedin: https://www.linkedin.com/in/arthur-maduro-a0ba2123b/
